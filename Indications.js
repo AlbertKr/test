@@ -5,7 +5,8 @@ Pour tester mon application, il vous faudra :
 1. Lancez WampServer (ou UwAmp), et vous connecter à MySql
 2. Remplacez vos coordonnées de connexion (Login et Mdp) MySql à la place des miens (root et "")
   dans le fichier "connexionBD.php" (qui se trouve dans le dossier modele)
-3. Vous pouvez importer la bdd "face", possédant une table nommé "facebook", dont vous pourrez modifier le nom.
+3. Vous pouvez importer la bdd, qui se trouve dans le fichier "facebook.sql", qui possède une base "face",
+  possédant une table nommé "facebook", dont vous pourrez modifier le nom.
   Les inéractions avec la bdd se trouvent dans le fichier "utilisateurBD.php" qui se trouve dans le dossier modele.
 4. Le fichier JavaScript s'appelle "script.js", qui se trouve dans le dossier vue/scriptJS.
 
