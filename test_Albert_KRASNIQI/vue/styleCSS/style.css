@@ -1,0 +1,138 @@
+/* Paramètres généraux */
+body{
+	margin : 0 0 0 0;
+	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+	background-color:#F5F5F5;	
+}
+
+/* Style des liens */
+a:link {
+	text-decoration: none;
+	color: #B0C4DE	;	
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+a:visited {
+	color: #B0C4DE;
+}
+
+#lien:link {
+	color: #3b5998;	
+}
+
+
+#lien:visited{
+	color: #3b5998;	
+}
+
+
+/* Partie Connexion */
+
+
+/* Entête */
+header
+{  
+    font-size: 13px;  
+    background-color: #3b5998;  
+	color:white;
+	width:100%;
+	height:80px;
+	padding-top:15px;
+	padding-left:20px;
+}
+
+table{
+	margin:auto;	
+}
+
+tr{
+	border-color: #1d2a5b;
+    margin: 0;
+    width: 142px;
+	font-size: 12px;
+}
+
+/* Bouton Connexion */
+#connexion{
+	background-color: #4267B2;
+	color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: center;
+	 border:1px solid #29487D;
+}
+
+
+/* Partie Inscription */
+
+/* Paramètre généraux de la partie Inscription */
+div{
+	display:block;
+	margin:auto;
+	margin-top:3em;	
+	width:400px;
+	text-align:left;
+}
+
+#titre{
+	font-size:40px;
+	font-weight:bold;
+	color:black;
+	margin-bottom:1px;
+}
+
+#gratis{
+	font-size:20px;	
+}
+
+/* Paramètres des input */
+#prenom, #nom, #num, #confnum, #mdp{
+	border-radius: 5px;
+	font-size: 18px;
+    padding: 8px 10px;
+	width:170px;
+	margin-bottom:10px;
+}
+
+/* Redimensionnement de certains input */
+#num, #confnum,#mdp{
+	width:370px;
+}
+
+#naiss{
+	font-size:20px;	
+}
+
+/* Redimensionnement du texte du grend paragraphe */
+#cond{
+	font-size:11px;
+	color:gray;
+}
+
+/* Bouton Inscription */
+#inscription{	
+	background:linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;	
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);	
+	line-height: 126%;		
+	margin-top: 10px;
+    margin-bottom: 10px;	
+	min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;	
+    font-weight: bold;
+	font-size: 19px;
+}
