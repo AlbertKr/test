@@ -7,6 +7,8 @@ Pour tester mon application, il vous faudra :
   dans le fichier "connexionBD.php" (qui se trouve dans le dossier modele)
 3. Vous pouvez importer la bdd "face", possédant une table nommé "facebook", dont vous pourrez modifier le nom.
   Les inéractions avec la bdd se trouvent dans le fichier "utilisateurBD.php" qui se trouve dans le dossier modele.
+4. Le fichier JavaScript s'appelle "script.js", qui se trouve dans le dossier vue/scriptJS.
+
 
 Notes personnelles :
 
